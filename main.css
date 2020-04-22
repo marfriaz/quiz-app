@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    /*background-color: rgba(0, 128, 128, 0.911); */
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .icon img {
+      border-radius: 50px;
+      max-width: 200px;
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+  }
+
+  main {
+    border: 10px solid lightgray;
+    border-radius: 30px;
+    margin: 50px 80px 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  #home-image{
+    max-width: 700px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .question-and-score {
+    margin-top: 10px;
+  }
+
+  .question-and-score ul {
+    display: inline;
+    list-style: none;
+  }
+
+  .question-and-score li {
+    display: inline;
+    padding-right: 30px;
+  }
+
+  button {
+      margin: 20px 0 20px 0;
+      width: 100px;
+      height: 80px;
+      border-radius: 10px;
+      background-color: red;
+      color: white;
+  }

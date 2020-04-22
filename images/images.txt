@@ -1,0 +1,14 @@
+icon: https://res.cloudinary.com/sagacity/image/upload/c_crop,h_800,w_616,x_0,y_0/c_scale,w_640/v1419879339/iVegJ35_xfjlfu.gif
+
+header1: https://external-preview.redd.it/yxb5JM0G9gOeL_Bf-XVi2LWs89xvVxh61zZXCxbvGC0.jpg?width=960&crop=smart&auto=webp&s=ac73e96c27bebef041c00aac34bfedfb04d36a27
+header2: https://steemitimages.com/0x0/http://i0.kym-cdn.com/photos/images/newsfeed/000/640/866/e59.png
+
+test1: https://dnlzsmybcpo0z.cloudfront.net/games/images/map_img_865149_1574789451.jpg
+test2: https://static.boredpanda.com/blog/wp-content/uploads/2016/03/krosanai__700.jpg
+test3: http://i.imgur.com/4kyaUiX.jpg
+test4: http://i.imgur.com/6hfPovd.jpg
+test5: http://i.imgur.com/Htmp20A.jpg
+test6: https://dnlzsmybcpo0z.cloudfront.net/games/images/f4db12d043bafc49ee64162e745ee044.jpg
+test7: https://dnlzsmybcpo0z.cloudfront.net/games/images/map_img_861873_1553870528.jpg
+test8: https://external-preview.redd.it/VmIYcQS1BlkZzqIzeAr4GumV1yDMcxVfVsfhCOXtCoI.jpg?width=960&crop=smart&auto=webp&s=01db5fa1b2e42e4c868774fb250d7aeef218f239
+test9: https://i.imgur.com/Kje6LGJ.jpg
