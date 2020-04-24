@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A quiz on counting how many images are pets vs food.">
+    <title>Pet or Food Quiz</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <section class="icon"><img src="images/icon.gif" alt="shiba"/></section>
+        <section class="question-and-score">
+            <ul>
+                <li class="questionandscore">Question:<span id="question-number"> 1</span>/9</li>
+                <li class="questionandscore">Score:<span id="score-number"> 0</span></li>
+            </ul>
+        </section>
+    </header> 
+    <main>
+        <section class="question-page" role="Quiz Intro">
+            <img id="question-img" src="images/test1.jpg" alt="Question 1 image">
+            <section id="img-and-options">
+                <h1 id ="question">How many corgis are in this photo?</h1>
+                <fieldset>
+                    <input type="radio" name="option1" id="option1">
+                    <label for="option1">5</label>
+                    <br>
+                    <input type="radio" name="option2" id="option2" value="0">
+                    <label for="option2">9</label>
+                    <br>
+                    <input type="radio" name="option3" id="option3" value="0">
+                    <label for="option3">8</label>
+                    <br>
+                    <input type="radio" name="option4" id="option4" value="0">
+                    <label for="option4">10</label>
+                  </fieldset>
+                  <h1 id ="wrong">Wrong! Correct Answer is 9.</h1>
+                  <h1 id ="correct">Correct!</h1>
+            </section>
+        </section>
+        <button type="button" id="next">Next</button>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+

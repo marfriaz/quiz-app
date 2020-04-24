@@ -24,23 +24,6 @@
       align-items: center;
   }
 
-  main {
-    border: 10px solid lightgray;
-    border-radius: 30px;
-    margin: 50px 80px 50px 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-  }
-
-  #home-image{
-    max-width: 700px;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-  }
-
   .question-and-score {
     margin-top: 10px;
   }
@@ -53,6 +36,24 @@
   .question-and-score li {
     display: inline;
     padding-right: 30px;
+    font-size: 25px;
+  }
+
+  main {
+    border: 10px solid lightgray;
+    border-radius: 30px;
+    margin: 50px 80px 50px 80px;
+  }
+
+  .startingPoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  #home-image{
+    max-width: 700px;
   }
 
   button {
@@ -63,3 +64,34 @@
       background-color: red;
       color: white;
   }
+
+  .question-page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 0 30px 0;
+  }
+  #question-img{
+      padding-right: 20px
+  }
+
+
+  #img-and-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: ;
+  }
+
+  #wrong {
+      color: red;
+  }
+
+  #correct {
+    color: green;
+  }
+
+  #next{
+    float: right;
+  }
+
