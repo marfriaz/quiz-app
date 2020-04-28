@@ -235,7 +235,7 @@ function nextQuestion() {
 
 function endingPage() {
     $('.endingPage').html(`
-        <h1>You scored ${score}/${STORE.length}!!!</h1>
+        <h1>You scored: ${score}/${STORE.length}!!!</h1>
         <img class="home-image images" src="images/header2.jpg" alt="Pug in the shape of a bread loaf">
         <button type="button" class="restart-button button">Take Again</button>
     `)
