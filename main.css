@@ -26,30 +26,30 @@
     margin-top: 10px;
   }
 
-  .question-and-score ul {
+.question-and-score ul {
     display: inline;
     list-style: none;
     text-align: center;
   }
 
-  .question-and-score li {
+.question-and-score li {
     display: inline;
     font-weight: bold;
     padding-right: 30px;
     font-size: 20px;
   }
 
-  .icon img {
-      border-radius: 50px;
-      width: 100px;
-      display:flex;
-      flex-direction:column;
-      align-items: center;
+.icon img {
+    border-radius: 50px;
+    width: 100px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
   }
 
-  main {
-      max-width:90%;
-      margin: auto;
+main {
+    max-width:90%;
+    margin: auto;
   }
 
   .startingPage,
@@ -172,6 +172,8 @@ img.home-image {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        flex: 1;
     }
 
     #questions-container {
@@ -183,25 +185,25 @@ img.home-image {
         border-radius: 30px;
     }
 
-    h1 {
-        font-size: 10px;
-        margin: 1px 0 1px;
+h1 {
+    font-size: 10px;
+    margin: 1px 0 1px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+}   
+
+.question-page {
+    padding: 15px;
+}
+
+fieldset.radios {
+    display: inline;
+    font-size: .75em;
     }
-
-    button {
-        width: 50px;
-        height: 30px;
-        border-radius: 10px;
-        background-color: red;
-        color: white;
-        font-size: 10px;
-    }   
-
-    .question-page {
-        padding: 15px;
-    }
-
-    fieldset.radios {
-        display: inline;
-        font-size: .75em;
-      }

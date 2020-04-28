@@ -143,7 +143,7 @@ function generateQuestion() {
     let answerOptions= "";
     for (let i =0 ; i < STORE[questionNumber].answers.length; i++) {
         answerOptions += `
-        <input type="radio" name="answer" id="option${i+1}" value="${STORE[questionNumber].answers[i]}">
+        <input type="radio" name="answer" id="option${i+1}" value="${STORE[questionNumber].answers[i]}" required>
         <label for="option${i+1}">${STORE[questionNumber].answers[i]}</label>
         `;
     }
