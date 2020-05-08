@@ -150,21 +150,23 @@ function generateQuestion() {
     // pushes question and answer options
     $('#questions-container').html(`
     <img class="question-img images" src=${STORE[questionNumber].image} alt=${STORE[questionNumber].alt}>
-    <section id="img-and-options">
+    <form id="img-and-options">
+    
     <h1 id ="question">${STORE[questionNumber].question}</h1>
     <fieldset class="radios">
         ${answerOptions}
     </fieldset>
     <section class="response"></section>
-    <button type="button" class="button" id="submit-button">Submit</button>
-    </section>
+    <input type="submit" class="button" id="submit-button"></input>
+    </form>
     `);
 }
 
 
 function submitAnswer() {
-    // event delegation
-    $('fieldset').on('click', '#submit-button', event => {
+  // event delegation
+  $('fieldset').on('submit', '#img-and-options', event => {
+
         // prevents default form submission behaviour
         event.preventDefault();
         $('.response').show();
